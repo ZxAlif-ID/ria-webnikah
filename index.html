@@ -1,585 +1,562 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Website ini merupakan website Pernikahan Adam dan Hawa yang akan segera melakukan resepsi pernikahan. Silahkan berikan doa dan harapan untuk kami berdua">
+  <meta name=”robots” content="index, follow">
+  <title>Template Half</title>
 
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Template Lanscape</title>
-    <meta name="description" content="webnikah website nomer satu di indonesia">
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
-      integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- BOOSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Sacramento&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-      
-  <body>
-    <!-- NAVBAR -->
-    <nav class="navbar fixed-bottom navbar-dark navbar-expand" style="background: #a2b7ce;">
-      <ul class="navbar-nav nav-justified w-100">
-        <li class="nav-item" style="border-left: 2px solid rgb(82, 106, 185); padding: 10px 20px;">
-          <a href="#mempelai" class="nav-link text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1.3rem" viewBox="0 0 640 512"><style>svg {fill: #233a86};</style>
-              <path d="M176 288a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM352 176c0 86.3-62.1 158.1-144 173.1V384h32c17.7 0 32 14.3 32 32s-14.3 32-32 32H208v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V448H112c-17.7 0-32-14.3-32-32s14.3-32 32-32h32V349.1C62.1 334.1 0 262.3 0 176C0 78.8 78.8 0 176 0s176 78.8 176 176zM271.9 360.6c19.3-10.1 36.9-23.1 52.1-38.4c20 18.5 46.7 29.8 76.1 29.8c61.9 0 112-50.1 112-112s-50.1-112-112-112c-7.2 0-14.3 .7-21.1 2c-4.9-21.5-13-41.7-24-60.2C369.3 66 384.4 64 400 64c37 0 71.4 11.4 99.8 31l20.6-20.6L487 41c-6.9-6.9-8.9-17.2-5.2-26.2S494.3 0 504 0H616c13.3 0 24 10.7 24 24V136c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-33.4-33.4L545 140.2c19.5 28.4 31 62.7 31 99.8c0 97.2-78.8 176-176 176c-50.5 0-96-21.3-128.1-55.4z"/></svg>
-            <span class="small d-block">Mempelai</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#cerita" class="nav-link text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1.3rem" viewBox="0 0 512 512"><style>svg {fill: #233a86};</style>
-              <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
-            <span class="small d-block">Cerita</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#undangan" class="nav-link text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1.3rem" viewBox="0 0 512 512"><style>svg {fill: #233a86};</style>
-              <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
-            <span class="small d-block">Undangan</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#lokasi" class="nav-link text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1.3rem" viewBox="0 0 576 512"><style>svg {fill: #233a86};</style>
-              <path d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152V422.8c0 9.8-6 18.6-15.1 22.3L416 503V200.4zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6V451.8L32.9 502.7C17.1 509 0 497.4 0 480.4V209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77V504.3L192 449.4V255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg>
-            <span class="small d-block">Lokasi</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#photo" class="nav-link text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1.3rem" viewBox="0 0 512 512"><style>svg {fill: #233a86};</style>
-              <path d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM323.8 202.5c-4.5-6.6-11.9-10.5-19.8-10.5s-15.4 3.9-19.8 10.5l-87 127.6L170.7 297c-4.6-5.7-11.5-9-18.7-9s-14.2 3.3-18.7 9l-64 80c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6h96 32H424c8.9 0 17.1-4.9 21.2-12.8s3.6-17.4-1.4-24.7l-120-176zM112 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z"/></svg>
-            <span class="small d-block">Photo</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#video" class="nav-link text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1.3rem" viewBox="0 0 576 512"><style>svg {fill: #233a86};</style>
-              <path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>
-            <span class="small d-block">Video</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#kado" class="nav-link text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1.3rem" viewBox="0 0 512 512"><style>svg {fill: #233a86};</style>
-              <path d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"/></svg>
-            <span class="small d-block">Kado</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#ucapan" class="nav-link text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" height="1.3rem" viewBox="0 0 512 512"><style>svg {fill: #233a86};</style>
-              <path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z"/></svg>
-            <span class="small d-block">Ucapan</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+  <!-- ICON -->
+  <script src="https://kit.fontawesome.com/d9f4ccbc33.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- SIDEBAR -->
-    <div class="sidebar">
-      <div class="element2">
-      <img src="pict/element2.png" alt="lulworth blue" width="300px">
-      </div>
-      <div class="centered">
-        <br /><br /><br /><br />
-        <p id="name-cover">
-          Ria <br />
-          & <br >
-          Ace <br />
-        </p> <br /> <br /><br />
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <section class="">
+    <div class="containerr">
+
+      <!-- SIDEBAR -->
+      <div class="left">
+        <div class="text-center w-100 p-3 py-5 py-lg-0">
+          <h1 class="m-0 text-dark">Ria & Ace</h1>
+
         <div class="mx-auto">
-          <a href="#undangan-pernikahan" class="btn" type="button" style="font-family: Lexend, sans-serif; background-color: rgb(82, 106, 185); color: azure;">BUKA UNDANGAN</a>
+          <a href="#undangan-pernikahan" class="btn" style="font-family: Lexend, sans-serif; background-color: rgb(82, 106, 185); color: azure;">BUKA UNDANGAN</a>
+        </div>
         </div>
       </div>
-    </div>
+      <!-- SIDEBAR END -->
+      
+      <!-- MAIN CONTENT -->
+      <div class="right">
+        <div class="text-center">
+          <!-- AWAL -->
+          <div class="py-4">
+            <div class="container">
+              <h1>Assalamu'alaikum Warahmatullahi Wabarakatuh</h1>
+              <p>"Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari
+                jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan diantaramu rasa kasih dan 
+                sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang 
+                berpikir." (QS. Ar Rum:21). Dengan Rahmat Allah yang Maha Kuasa InsyaAllah kami akan melangsungkan 
+                pernikahan :
+              </p>
 
-    <!-- CONTENT -->
-    <div class="content">
-      <!-- PEMBUKAAN -->
-      <div>
-        <h1>Assalamu'alaikum Warahmatullahi Wabarakatuh</h1>
-        <p>"Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari
-          jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan diantaramu rasa kasih dan 
-          sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang 
-          berpikir." (QS. Ar Rum:21). Dengan Rahmat Allah yang Maha Kuasa InsyaAllah kami akan melangsungkan 
-          pernikahan :
-        </p>
+              <h3 id="demo"></h3>
 
-        <h2 id="demo"></h2>
+              <p>di kediaman mempelai wanita, Jln. Raya Cijulang km. 100/99 Blok Stasiun Cikembulan Lama RT01/19 Desa. Wonoharjo Kec. Pangandaran Kab. Pangandaran.</p><br />
+            
+              <!-- MEMPELAI -->
+              <div>
+                <div id="mempelai">
+                  <div class="row">
+                    <div class="col-sm-6 mb-3">
+                      <div class="card">
+                        <img src="pict/bride2.jpg" class="card-img-top" alt="bride">
+                        <div class="card-body">
+                          <h5 class="card-title">Ria Rosnalia</h5>
+                          <p class="card-text">Putri dari bapak Asna Riyana dan ibu Rasmiati</p>
+                          <p class="card-text">
+                            Lahir di Cirebon dan besar di Pangandaran, sering galau karena menjomblo bertahun-tahun tidak punya pacar 
+                            tapi akhirnya bisa menemukan orang yang pas saat pergi berlibur ke Jepang yang dinikahin sekarang.
+                            Alhamdulilah.
+                          </p>
+                          <a href="#">Instagram</a>
+                        </div>
+                      </div>
+                    </div>
 
-        <script>
-          var countDownDate = new Date("Nov 5, 2030 15:37:25").getTime();
-
-          var x = setInterval(function() {              
-          var now = new Date().getTime();
-          var distance = countDownDate - now;
-          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                
-          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-          + minutes + "m " + seconds + "s ";
-                
-          if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("demo").innerHTML = "THE DAY";
-          }
-          }, 1000);
-        </script>
-
-        <p>di kediaman mempelai wanita, Jln. Raya Cijulang km. 100/99 Blok Stasiun Cikembulan Lama RT01/19 Desa. Wonoharjo Kec. Pangandaran Kab. Pangandaran.</p><br />
-
-        <div class="masterhead" data-aos="fade-up">
-        <div id="mempelai">
-          <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card" style="width: 19rem;">
-                  <img src="pict/bride2.jpg" class="card-img-top" alt="bride">
-                  <div class="card-body">
-                    <h5 class="card-title">Ria Rosnalia</h5>
-                    <p class="card-text">Putri dari bapak Asna Riyana dan ibu Rasmiati</p>
-                    <p class="card-text">
-                      Lahir di Cirebon dan besar di Pangandaran, sering galau karena menjomblo bertahun-tahun tidak punya pacar 
-                      tapi akhirnya bisa menemukan orang yang pas saat pergi berlibur ke Jepang yang dinikahin sekarang.
-                      Alhamdulilah.
-                    </p>
-                    <a href="#">Instagram</a>
-                  </div>
-                </div>
-            </div>
-
-              <div class="col-sm-6">
-                <div class="card" style="width: 19rem;">
-                  <img src="pict/bride1.jpg" class="card-img-top" alt="bride">
-                  <div class="card-body">
-                    <h5 class="card-title">Portgas D. Ace</h5>
-                    <p class="card-text">putra pertama</p>
-                    <p class="card-text">Putra dari bapak Gol D. Roger dan ibu Portgas D. Rouge</p>
-                    <p class="card-text">
-                      Lahir di South Blue dan besar di East Blue dirawat sama kakek orang, menjomblo bertahun-tahun
-                      karena fokus buat bantu pak tua kumis putih buat jadi raja bajak laut sama cari harta karun.
-                      Akhirnya ketemu orang pas yang dinikahin sekarang waktu terdampar di Jepang. Alhamdulillah.
-                    </p>
-                    <a href="#">Instagram</a>
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <img src="pict/bride1.jpg" class="card-img-top" alt="bride">
+                        <div class="card-body">
+                          <h5 class="card-title">Portgas D. Ace</h5>
+                          <p class="card-text">putra pertama</p>
+                          <p class="card-text">Putra dari bapak Gol D. Roger dan ibu Portgas D. Rouge</p>
+                          <p class="card-text">
+                            Lahir di South Blue dan besar di East Blue dirawat sama kakek orang, menjomblo bertahun-tahun
+                            karena fokus buat bantu pak tua kumis putih buat jadi raja bajak laut sama cari harta karun.
+                            Akhirnya ketemu orang pas yang dinikahin sekarang waktu terdampar di Jepang. Alhamdulillah.
+                          </p>
+                          <a href="#">Instagram</a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </span>
-          </div>
-        </div>
-        </div>
-      </div>
-      
-      <br /><br /><br />
-
-      <!-- CERITA CINTA -->
-      <div class="masterhead" data-aos="fade-up">
-      <div id="cerita">
-        <div>
-          <img src="pict/element1.png" width="190px">
-          <div class="element" id="cerita"><h1>Cerita Cinta</h1></div>
-        </div>
-        <p>Banyak cerita yang kami lalui sehingga akhirnya kami bisa bersatu, 
-          cerita yang akan kami kenang selalu, 
-          dan cerita itu kami bagi untuk anda.
-        </p>
-
-        <div class="container">
-          <button class="accordion"><h5>first meet</h5></button>
-          <div class="panel">
-            <p>Fasilitas ini digunakan untuk memberikan informasi yang lengkap tentang profile dari Mempelai Pria, 
-              silahkan masukan dengan lengkap dan jelas berikut dengan foto yang berkualitas bagus.
-            </p>
-            <p id="tanggal"></p>
-        </div>
-
-        <button class="accordion"><h5>engagement</h5></button>
-        <div class="panel">
-          <p>Fasilitas ini digunakan untuk memberikan informasi yang lengkap tentang profile dari Mempelai Pria, 
-            silahkan masukan dengan lengkap dan jelas berikut dengan foto yang berkualitas bagus.</p>
-          <p id="tanggal2"></p>
-        </div>
-
-        <script>
-          var tw = new Date();
-          if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
-            else (a=tw.getTime());
-            tw.setTime(a);
-            var tahun= tw.getFullYear ();
-            var hari= tw.getDay ();
-            var bulan= tw.getMonth ();
-            var tanggal= tw.getDate ();
-            var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
-            var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember");
-          document.getElementById("tanggal").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun;
-          document.getElementById("tanggal2").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun;
-        </script>
-
-        <script>
-          var acc = document.getElementsByClassName("accordion");
-          var i;
-                
-          for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-              this.classList.toggle("active");
-              var panel = this.nextElementSibling;
-              if (panel.style.display === "block") {
-              panel.style.display = "none";
-              } else {
-              panel.style.display = "block";
-              }
-            });
-          }
-        </script>
-      </div>
-      </div>
-
-      <br /><br /><br />
-
-      <!-- UNDANGAN ACARA -->
-      <div class="masterhead" data-aos="fade-up">
-      <div id="undangan-pernikahan"></div>
-      <div id="undangan">
-        <div>
-          <img src="pict/element1.png" width="190px">
-          <div class="element" id="undangan"><h1>Undangan dan Acara</h1></div>
-        </div>
-        <p style="font-size: 20px;">Bahagia rasanya apabila anda berkenan hadir dan memberikan doa restu kepada kami.
-          kami mengundang anda untuk hadir dalam acara resepsi pernikahan kami berikut ini :</p><br />
-
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title" style="color: grey; margin-top: 15px;">Resepsi pernikahan</h5><hr />
-                <p class="card-text" style="margin-top: 25px;">
-                  <span class="bold-text">09:15 - selesai</span><br />
-                  Selasa, 05 November 2030 <br />
-                  09:15 -  selesai
-                </p>
-                <a href="https://calendar.google.com/calendar/u/0?cid=cmlhcm9zbmFsaWEyMDNAZ21haWwuY29t" 
-                class="btn" type="button" style="background-color: rgb(82, 106, 185); color: azure;">add to calendar</a>
-              </div>
+              <!-- MEMPELAI END -->
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="card-body">
-              <h5 class="card-title" style="color: grey; margin-top: 15px;">Akad nikah</h5><hr />
-              <p class="card-text" style="margin-top: 25px;">
-                <span class="bold-text">08:00 - selesai</span><br />
-                Senin, 04 November 2030 <br />
-                Masjid Agung
-              </p>
-              <a href="https://calendar.google.com/calendar/u/0?cid=cmlhcm9zbmFsaWEyMDNAZ21haWwuY29t" 
-              class="btn" type="button" style="background-color: rgb(82, 106, 185); color: azure;">add to calendar</a>
-            </div>
-          </div>
-        </div>
-        <div class="mb-4"></div>
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title" style="color: grey; margin-top: 15px;">Resepsi sesi 2</h5><hr />
-                <p class="card-text" style="margin-top: 25px;">
-                  <span class="bold-text">Minggu, 10 November 2030</span><br />
-                  09:15 - selesai <br /><br />
-                  Ballroom Hotel
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card-body">
-              <h5 class="card-title" style="color: grey; margin-top: 15px;">Resepsi sesi 3</h5><hr />
-              <p class="card-text" style="margin-top: 25px;">
-                <span class="bold-text">Kamis, 14 November 2030</span><br />
-                20:00 - selesai <br /><br />
-                Ballroom Hotel
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="mb-4"></div>
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title" style="color: grey; margin-top: 10px;">Turut mengundang</h5><hr />
-            <p class="card-text">
-              <ul style="font-size: 18px;">
-                <li>Paman</li>
-                <li>Bibi</li>
-                <li>Sahabat</li>
-                <li>Saudara</li>
-                <li>Adik</li>
-              </ul>
-            </p>
-            <p class="card-text">
-              Fasilitas ini digunakan untuk memberikan informasi yang lengkap tentang undangan, 
-              silahkan masukan dengan lengkap dan jelas untuk melengkapi website pernikahan anda. <br />
-              آمِيْن يَا رَبَّ العَالَمِيْ
-            </p>
-          </div>
-        </div>
-      </div>
-      </div>
-      
-      <br /><br /><br />
+          <!-- AWAL END -->
+        
+          <!-- CERITA CINTA -->
+          <div class="py-4">
+            <div class="container">
+              <div>
+                <div id="cerita">
+                  <div>
+                    <img src="pict/element1.png" width="190px">
+                    <div class="element" id="cerita"><h1>Cerita Cinta</h1></div>
+                  </div>
+                  <p>Banyak cerita yang kami lalui sehingga akhirnya kami bisa bersatu, 
+                    cerita yang akan kami kenang selalu, 
+                    dan cerita itu kami bagi untuk anda.
+                  </p>
 
-      <!-- PETA LOKASI -->
-      <div class="masterhead" data-aos="fade-up">
-      <div id="lokasi">
-        <div>
-          <img src="pict/element1.png" width="190px">
-          <div class="element" id="lokasi"><h1>Peta Lokasi</h1></div>
-        </div>
-        <p style="font-size: 20px;">Anda dapat menuju lokasi acara kami dengan bantuan peta dibawah ini atau anda bisa buka di :</p>
-
-        <a href="https://goo.gl/maps/pnuTJcKVYs2LhvxR9" class="btn" role="button" aria-pressed="true" 
-        style="background-color: rgb(82, 106, 185); color: azure;">buka di google maps</a>
-
-        <br /><br /><br />
-
-        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.086377386744!2d108.61688677418779!3d
-        -7.673862975956853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6599e01ca61585%3A0x534f3fe14b426e0!
-        2zUmlh4oCZcyBob3VzZQ!5e0!3m2!1sid!2sid!4v1688455310518!5m2!1sid!2sid"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      </div>
-
-      <br /><br /><br />
-
-      <!-- PHOTO -->
-      <div class="masterhead" data-aos="fade-up">
-      <div id="photo">
-        <div>
-          <img src="pict/element1.png" width="190px">
-          <div class="element" id="photo"><h1>Photo</h1></div>
-        </div>
-        <p>Moment kebahagian yang kami kenang selalu.</p><br />
-
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4 mb-3">
-              <img src="pict/photo1.jpg" alt="brides" style="width: 200px;">
-            </div>
-            <div class="col-sm-4 mb-3">
-              <img src="pict/photo2.jpg" alt="brides" style="width: 200px;">
-            </div>
-            <div class="col-sm-4 mb-3">
-              <img src="pict/photo3.jpg" alt="brides" style="width: 200px;">
-            </div>
-            <div class="col-sm-4 mb-3">
-              <img src="pict/photo4.jpg" alt="brides" style="width: 200px;">
-            </div>
-            <div class="col-sm-4 mb-3">
-              <img src="pict/photo5.jpg" alt="brides" style="width: 200px;">
-            </div>
-            <div class="col-sm-4 mb-3">
-              <img src="pict/photo6.jpg" alt="brides" style="width: 200px;">
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-
-      <br /><br /><br />
-
-      <!-- VIDEO -->
-      <div class="masterhead" data-aos="fade-up">
-      <div id="video">
-        <div>
-          <img src="pict/element1.png" width="190px">
-          <div class="element"><h1>Video</h1></div>
-        </div>
-        <p>Sudilah sejenak melihat kebahagiaan kami melalui video dibawah ini.</p>
-
-        <br />
-
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/z35MvWUzd28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-      </div>
-      </div>
-
-      <br /><br /><br />
-
-      <!-- KADO -->
-      <div class="masterhead" data-aos="fade-up">
-      <div id="kado">
-        <div>
-          <img src="pict/element1.png" width="190px">
-          <div class="element"><h1>Kado</h1></div>
-        </div>
-        <p style="font-size: 20px;">Terima kasih atas doa dan restu yang telah anda berikan, 
-          jika anda ingin mengirimkan kado nikah, 
-          silahkan kirim dengan cara dibawah ini. 
-          Sebelumnya, kami mengucapkan banyak terima kasih.
-        </p><br />
-
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card" style="width: 19rem;">
-              <img src="pict/mandiri.jpg" class="card-img-top" alt="bank mandiri">
-              <div class="card-body">
-                <p class="card-text">Nomor Rekening : <br /> <span id="rek">08721872653</span></p>
-                <div class="d-grip gap-2 col-6 mx-auto">
-                  <button class="btn btn-copy" onclick="copyContent()" type="button" style="font-size: 15px; background-color: rgb(82, 106, 185); color: azure;"><span class="fa fa-copy"> copy rekening </span></button>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h5 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          first meet
+                        </button>
+                      </h5>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Fasilitas ini digunakan untuk memberikan informasi yang lengkap tentang profile dari Mempelai Pria, 
+                          silahkan masukan dengan lengkap dan jelas berikut dengan foto yang berkualitas bagus.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h5 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          engagement
+                        </button>
+                      </h5>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Fasilitas ini digunakan untuk memberikan informasi yang lengkap tentang profile dari Mempelai Pria, 
+                          silahkan masukan dengan lengkap dan jelas berikut dengan foto yang berkualitas bagus.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-sm-6">
-            <div class="card" style="width: 19rem;">
-              <img src="pict/bca.png" class="card-img-top" alt="bank mandiri">
-              <div class="card-body">
-                <p class="card-text">Nomor Rekening : <br /> <span id="rek2">11986628399</span></p>
-                <div class="d-grip gap-2 col-6 mx-auto">
-                  <button class="btn btn-copy" onclick="copyContent2()" type="button" style="font-size: 15px; background-color: rgb(82, 106, 185); color: azure;"><span class="fa fa-copy"> copy rekening </span></button>
+          <!-- CERITA CINTA END -->
+        
+          <!-- UNDANGAN PERNIKAHAN -->
+          <div class="py-4">
+            <div class="container">
+              <div>
+                <div id="undangan-pernikahan"></div>
+                <div id="undangan">
+                  <div>
+                    <img src="pict/element1.png" width="190px">
+                    <div class="element" id="undangan"><h1>Undangan dan Acara</h1></div>
+                  </div>
+                  <p style="font-size: 20px;">Bahagia rasanya apabila anda berkenan hadir dan memberikan doa restu kepada kami.
+                    kami mengundang anda untuk hadir dalam acara resepsi pernikahan kami berikut ini :</p><br />
+        
+                  <div class="row">
+                    <div class="col-sm-6 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: grey; margin-top: 15px;">Resepsi pernikahan</h5><hr />
+                          <p class="card-text" style="margin-top: 25px;">
+                            <span class="bold-text">09:15 - selesai</span><br />
+                            Selasa, 05 November 2030 <br />
+                            09:15 -  selesai
+                          </p>
+                          <a href="https://calendar.google.com/calendar/u/0?cid=cmlhcm9zbmFsaWEyMDNAZ21haWwuY29t" 
+                          class="btn" type="button" style="background-color: rgb(82, 106, 185); color: azure;">add to calendar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: grey; margin-top: 15px;">Akad nikah</h5><hr />
+                          <p class="card-text" style="margin-top: 25px;">
+                            <span class="bold-text">08:00 - selesai</span><br />
+                            Senin, 04 November 2030 <br />
+                            Masjid Agung
+                          </p>
+                          <a href="https://calendar.google.com/calendar/u/0?cid=cmlhcm9zbmFsaWEyMDNAZ21haWwuY29t" 
+                          class="btn" type="button" style="background-color: rgb(82, 106, 185); color: azure;">add to calendar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: grey; margin-top: 15px;">Resepsi sesi 2</h5><hr />
+                          <p class="card-text" style="margin-top: 25px;">
+                            <span class="bold-text">Minggu, 10 November 2030</span><br />
+                            09:15 - selesai <br /><br />
+                            Ballroom Hotel
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title" style="color: grey; margin-top: 15px;">Resepsi sesi 3</h5><hr />
+                          <p class="card-text" style="margin-top: 25px;">
+                            <span class="bold-text">Kamis, 14 November 2030</span><br />
+                            20:00 - selesai <br /><br />
+                            Ballroom Hotel
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-4"></div>
+                  <div class="card text-center">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title" style="color: grey; margin-top: 10px;">Turut mengundang</h5><hr />
+                        <p class="card-text">
+                          <ul style="font-size: 18px;">
+                            <li>Paman</li>
+                            <li>Bibi</li>
+                            <li>Sahabat</li>
+                            <li>Saudara</li>
+                            <li>Adik</li>
+                          </ul>
+                        </p>
+                        <p class="card-text">
+                          Fasilitas ini digunakan untuk memberikan informasi yang lengkap tentang undangan, 
+                          silahkan masukan dengan lengkap dan jelas untuk melengkapi website pernikahan anda. <br />
+                          آمِيْن يَا رَبَّ العَالَمِيْ
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+          <!-- UNDANGAN PERNIKAHAN END -->
+        
+          <!-- PETA LOKASI -->
+          <div class="py-4">
+            <div class="container">
+              <div>
+                <div id="lokasi">
+                  <div>
+                    <img src="pict/element1.png" width="190px">
+                    <div class="element" id="lokasi"><h1>Peta Lokasi</h1></div>
+                  </div>
+                  <p style="font-size: 20px;">Anda dapat menuju lokasi acara kami dengan bantuan peta dibawah ini atau anda bisa buka di :</p>
+        
+                  <a href="https://goo.gl/maps/pnuTJcKVYs2LhvxR9" class="btn" role="button" aria-pressed="true" 
+                  style="background-color: rgb(82, 106, 185); color: azure;">buka di google maps</a>
+        
+                  <br /><br /><br />
 
-        <script>
-          function copyContent() {
-            const element = document.querySelector('#rek');
-            const storage = document.createElement('textarea');
-            storage.value = element.innerHTML;
-           element.appendChild(storage);
-
-            storage.select();
-            storage.setSelectionRange(0, 99999);
-            document.execCommand('copy');
-            element.removeChild(storage);
-
-            alert("Copied the text to clipboard");
-          }
-
-          function copyContent2() {
-            const element = document.querySelector('#rek2');
-            const storage = document.createElement('textarea');
-            storage.value = element.innerHTML;
-            element.appendChild(storage);
-
-            storage.select();
-            storage.setSelectionRange(0, 99999);
-            document.execCommand('copy');
-            element.removeChild(storage);
-
-            alert("Copied the text to clipboard");
-          }
-        </script>
-      </div>
-      </div>
-
-      <br /><br /><br />
-
-      <!-- DOA DAN UCAPAN -->
-      <div class="masterhead" data-aos="fade-up">
-      <div id="ucapan">
-        <div>
-          <img src="pict/element1.png" width="190px">
-          <div class="element" id="ucapan"><h1>Kirim Doa dan Ucapan</h1></div>
-        </div>
-        <p style="font-size: 20px;">Silahkan tuliskan suatu ucapan berupa harapan ataupun 
-          doa untuk kedua mempelai.
-        </p><br />
-
-        <form>
-          <div>
-            <input type="text" id="name" class="form-control mb-3" placeholder="Tulis nama lengkap anda">
-            <input type="text" id="rlt" class="form-control mb-3" placeholder="Hubungan dengan mempelai (optional)">
-            <input type="text" id="email" class="form-control mb-3" placeholder="Tulis alamat email anda (optional)">
-            <input type="text" id="no" class="form-control mb-3" placeholder="Tulis nomor handphone anda (optional)">
-            <input type="text" id="addres" class="form-control mb-3" placeholder="Tulis alamat tinggal anda">
-            <textarea type="text" id="wish" class="form-control mb-3" cols="10px" rows="7px" 
-            placeholder="Tulis ucapan atau doa untuk kedua mempelai"></textarea>
-
-            <button type="button" id="button" class="form-control mb-3" style="background-color: rgb(82, 106, 185); color: azure;">kirim doa dan ucapan</button>
-          </div>
-        </form>
-      </div>
-      </div>
-
-      <br /><br /><br />
-
-      <!-- DOA DAN UCAPAN -->
-      <div class="masterhead" data-aos="fade-up">
-      <div>
-        <div>
-          <img src="pict/element1.png" width="190px">
-          <div class="element"><h1>Doa dan Ucapan</h1></div>
-        </div>
-
-        <br />
-
-        <div>
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">marcoph07@gmail.com</h5><hr />
-                  <p class="card-text">HWD bro, semoga samawa dan diberkahi Allah</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">luffyd6047@gmail.com</h5><hr />
-                  <p class="card-text">Wish you all the best bang buat pernikahannya</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">anismarsela202@gmail.com</h5><hr />
-                  <p class="card-text">Semoga selalu bisa bersama sampe tua nanti ya</p>
+                  <div class="ratio ratio-16x9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.086377386744!2d108.61688677418779!3d
+                    -7.673862975956853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6599e01ca61585%3A0x534f3fe14b426e0!
+                    2zUmlh4oCZcyBob3VzZQ!5e0!3m2!1sid!2sid!4v1688455310518!5m2!1sid!2sid" title="YouTube video" allowfullscreen></iframe>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- PETA LOKASI END -->
+        
+          <!-- ALBUM PHOTO -->
+          <div class="py-4">
+            <div class="container">
+              <div>
+                <div id="photo">
+                  <div>
+                    <img src="pict/element1.png" width="190px">
+                    <div class="element" id="photo"><h1>Photo</h1></div>
+                  </div>
+                  <p>Moment kebahagian yang kami kenang selalu.</p><br />
+        
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-4 mb-4">
+                        <img src="pict/photo1.jpg" class="w-100" alt="brides">
+                      </div>
+                      <div class="col-sm-4 mb-4">
+                        <img src="pict/photo2.jpg" class="w-100" alt="brides">
+                      </div>
+                      <div class="col-sm-4 mb-4">
+                        <img src="pict/photo3.jpg" class="w-100" alt="brides">
+                      </div>
+                      <div class="col-sm-4 mb-4">
+                        <img src="pict/photo4.jpg" class="w-100" alt="brides">
+                      </div>
+                      <div class="col-sm-4 mb-4">
+                        <img src="pict/photo5.jpg" class="w-100" alt="brides">
+                      </div>
+                      <div class="col-sm-4 mb-4">
+                        <img src="pict/photo6.jpg" class="w-100" alt="brides">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ALBUM PHOTO END -->
+        
+          <!-- VIDEO -->
+          <div class="py-4">
+            <div class="container">
+              <div>
+                <div id="video">
+                  <div>
+                    <img src="pict/element1.png" width="190px">
+                    <div class="element"><h1>Video</h1></div>
+                  </div>
+                  <p>Sudilah sejenak melihat kebahagiaan kami melalui video dibawah ini.</p>
+        
+                  <br />
+        
+                  <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/z35MvWUzd28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- VIDEO END -->
+        
+          <!-- KADO -->
+          <div class="py-4">
+            <div class="container">
+              <div>
+                <div id="kado">
+                  <div>
+                    <img src="pict/element1.png" width="190px">
+                    <div class="element"><h1>Kado</h1></div>
+                  </div>
+                  <p>Terima kasih atas doa dan restu yang telah anda berikan, 
+                    jika anda ingin mengirimkan kado nikah, 
+                    silahkan kirim dengan cara dibawah ini. 
+                    Sebelumnya, kami mengucapkan banyak terima kasih.
+                  </p><br />
+        
+                  <div class="row">
+                    <div class="col-sm-6 mb-3">
+                      <div class="card">
+                        <img src="pict/mandiri.jpg" class="card-img-top" alt="bank mandiri">
+                        <div class="card-body">
+                          <p class="card-text">Nomor Rekening : <br /> <span id="rek">08721872653</span></p>
+                          <div class="d-grip gap-2 col-6 mx-auto">
+                            <button class="btn btn-copy" onclick="copyContent()" type="button" style="font-size: 10px; background-color: rgb(82, 106, 185); color: azure;"><span class="fa fa-copy"> copy rekening </span></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <img src="pict/bca.png" class="card-img-top" alt="bank mandiri">
+                        <div class="card-body">
+                          <p class="card-text">Nomor Rekening : <br /> <span id="rek2">11986628399</span></p>
+                          <div class="d-grip gap-2 col-6 mx-auto">
+                            <button class="btn btn-copy" onclick="copyContent2()" type="button" style="font-size: 10px; background-color: rgb(82, 106, 185); color: azure;"><span class="fa fa-copy"> copy rekening </span></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- KADO END -->
+        
+          <!-- FORM DOA DAN UCAPAN -->
+          <div class="py-4">
+            <div class="container">
+              <div>
+                <div id="doa">
+                  <div>
+                    <img src="pict/element1.png" width="190px">
+                    <div class="element" id="ucapan"><h1>Kirim Doa dan Ucapan</h1></div>
+                  </div>
+                  <p style="font-size: 20px;">Silahkan tuliskan suatu ucapan berupa harapan ataupun 
+                    doa untuk kedua mempelai.
+                  </p><br />
+        
+                  <form>
+                    <div>
+                      <input type="text" id="name" class="form-control mb-3" placeholder="Tulis nama lengkap anda">
+                      <input type="text" id="rlt" class="form-control mb-3" placeholder="Hubungan dengan mempelai (optional)">
+                      <input type="text" id="email" class="form-control mb-3" placeholder="Tulis alamat email anda (optional)">
+                      <input type="text" id="no" class="form-control mb-3" placeholder="Tulis nomor handphone anda (optional)">
+                      <input type="text" id="addres" class="form-control mb-3" placeholder="Tulis alamat tinggal anda">
+                      <textarea type="text" id="wish" class="form-control mb-3" cols="10px" rows="7px" 
+                      placeholder="Tulis ucapan atau doa untuk kedua mempelai"></textarea>
+        
+                      <button type="button" id="button" class="form-control mb-3" style="background-color: rgb(82, 106, 185); color: azure;">kirim doa dan ucapan</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FORM DOA DAN UCAPAN END -->
+          
+          <!-- DOA DAN UCAPAN -->
+          <div class="py-4">
+            <div class="container">
+              <div>
+                <div>
+                  <div>
+                    <img src="pict/element1.png" width="190px">
+                    <div class="element"><h1>Doa dan Ucapan</h1></div>
+                  </div>
+        
+                  <br />
+        
+                  <div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">marcoph07@gmail.com</h5><hr />
+                            <p class="card-text">HWD bro, semoga samawa dan diberkahi Allah</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">luffyd6047@gmail.com</h5><hr />
+                            <p class="card-text">Wish you all the best bang buat pernikahannya</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">anismarsela202@gmail.com</h5><hr />
+                            <p class="card-text">Semoga selalu bisa bersama sampe tua nanti ya</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- DOA DAN UCAPAN END -->
+          
+            <!-- AKHIR -->
+            <div class="py-4">
+              <div class="container">
+                <div>
+                  <div>
+                    <div>
+                      <p>
+                        بَارَكَ اللهُ لَكَ وَجَمَعَ بَيْنَكُمَا فِيْ خَيْرٍ. بَارَكَ اللهُ لِكُلِّ وَاحِدٍ مِنْكُمَا فِيْ صَاحِبِهِ وَجَمَعَ بَيْنَكُمَا فِيْ خَيْرٍ
+                        <br />
+                        Artinya, “Berkah Allah (semoga tercurahkan) bagimu. Dan (semoga) Allah mengumpulkan kalian berdua 
+                        dalam kebaikan. Berkah Allah (semoga tercurahkan) bagi masing-masing kalian berdua atas 
+                        pasangannya, dan (semoga) Allah mengumpulkan kalian berdua dalam kebaikan.”
+                      </p><br />
+                      <h1>Wassalamualaikum Warahmatullahi Wabarakatuh</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- AKHIR END -->
+          </div>
         </div>
       </div>
-      </div>
-
-      <br /><br /><br />
-
-      <!-- PENUTUP -->
-      <div class="masterhead" data-aos="fade-up">
-      <div>
-        <div>
-          <p>
-            بَارَكَ اللهُ لَكَ وَجَمَعَ بَيْنَكُمَا فِيْ خَيْرٍ. بَارَكَ اللهُ لِكُلِّ وَاحِدٍ مِنْكُمَا فِيْ صَاحِبِهِ وَجَمَعَ بَيْنَكُمَا فِيْ خَيْرٍ
-            <br />
-            Artinya, “Berkah Allah (semoga tercurahkan) bagimu. Dan (semoga) Allah mengumpulkan kalian berdua 
-            dalam kebaikan. Berkah Allah (semoga tercurahkan) bagi masing-masing kalian berdua atas 
-            pasangannya, dan (semoga) Allah mengumpulkan kalian berdua dalam kebaikan.”
-          </p><br />
-          <h1>Wassalamualaikum Warahmatullahi Wabarakatuh</h1>
-        </div>
-      </div>
-      </div>
-      <br />
+      <!-- MAIN CONTENT END -->
     </div>
+  </section>
 
-    <script>   
-      AOS.init(); 
-    </script>
+  <!-- VOLUME MUSIK -->
+  <div class="volume rounded">
+    <i class="fa-solid fa-volume-high"></i>
+  </div>
+  <!-- VOLUME MUSIK END -->
 
-  </body>
+  <!-- MENU -->
+  <div class="scrollmenu fixed-bottom">
+    <a href="index.html">
+      <i class="fa-solid fa-house"></i>
+      <br>
+      Home
+    </a>
+    <a href="#mempelai">
+      <i class="fa-solid fa-ring"></i>
+      <br>
+      Mempelai
+    </a>
+    <a href="#cerita">
+      <i class="fa-solid fa-heart"></i>
+      <br>
+      Cerita
+    </a>
+    <a href="#undangan">
+      <i class="fa-solid fa-envelope"></i>
+      <br>
+      Undangan
+    </a>
+    <a href="#lokasi">
+      <i class="fa-solid fa-location-dot"></i>
+      <br>
+      Peta
+    </a>
+    <a href="#photo">
+      <i class="fa-solid fa-images"></i>
+      <br>
+      Photo
+    </a>
+    <a href="#video">
+      <i class="fa-solid fa-video"></i>
+      <br>
+      Video
+    </a>
+    <a href="#kado">
+      <i class="fa-solid fa-gift"></i>
+      <br>
+      Kado
+    </a>
+    <a href="#doa">
+      <i class="fa-solid fa-comments"></i>
+      <br>
+      Doa
+    </a>
+  </div>
+  <!-- MENU END -->
+
+  <!-- SCRIPT BOOSTRAP -->
+  <!-- SCRIPT AOS -->
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+  </script>
+
+
+  <script>   
+    AOS.init(); 
+  </script>
+  <script src="script.js"></script>
+</body>
 </html>

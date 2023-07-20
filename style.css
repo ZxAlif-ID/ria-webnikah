@@ -1,80 +1,45 @@
 body {
-	background: #aabebf;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.navbar {
-    height: 60px;
-    padding: 250px;
-    position: relative;
-    border-top: 2px solid #5f7b99;
-}
-
-svg {
-    color: rgb(82, 106, 185);
-}
-
-.nav-item {
-    position: relative;
-    height: 60px;
-    padding: 10px 20px;
-    margin-bottom: 5px;
-    border-right: 2px solid rgb(82, 106, 185);
-    &:hover {
-        color: #a2b7ce;
-        background: rgb(82, 106, 185);
-    }
-
-    @media all and (min-width: 545px) {
-        padding: 10px;
-    }
-}
-
-.sidebar {
     margin: 0;
-    padding: 0;
-    width: 600px;
-    background-image: url(pict/lulworth-blue-cvr.jpg);
+    font-family: "Lato", sans-serif;
+}
+  
+.containerr{
+    width: 100% !important;
+}
+  
+.containerr .left{
+    width: 100%;
+    background-image: url('pict/background.jpg');
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-.element2 {
-    padding: 160px;
-    margin-top: -20px;
-}
-
-.centered {
-    position: absolute;
-    text-align: center;
-    font-size: 15px;
-    color: white;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Sacramento&display=swap');
-#name-cover {
     font-family: 'Sacramento', cursive;
     font-size: 40px;
-    margin-top: 15px;
 }
-
-div.content {
+  
+.containerr .right{
+    width: 100% !important;
+    height: auto;
     font-family: 'Lexend', sans-serif;
-    background-color: white;
-    font-size: 25px;
-    text-align: center;
-    margin-left: 600px;
-    padding: 20px 55px;
-    height: 1000px;
+    font-size: 20px;
 }
+  
+  @media (min-width:768px) {
+    .containerr{
+      display: flex;
+    }
+  
+    .containerr .left{
+      height: 100vh !important;
+      width: 50%;
+      display: flex;
+      align-items: center;
+    }
+  
+    .containerr .right{
+      width: 50% !important;
+      overflow-y: scroll;
+      height: 100vh;
+    }  
+  }
 
 p {
     font-size: 18px;
@@ -92,6 +57,16 @@ h2 {
 
 h5 {
     color: #444;
+}
+
+.accordion-body {
+    font-size: 15px;
+    text-align: left;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 23px;
 }
 
 #demo {
@@ -113,11 +88,6 @@ h5 {
     font-size: 17px;
 }
 
-.bold-text {
-    font-weight: bold;
-    font-size: 23px;
-}
-
 .element {
     background-image: linear-gradient(
         to right,
@@ -131,37 +101,59 @@ h5 {
     background-position: 0 center;
 }
 
-.accordion {
-    background-color: #a2b7ce;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    font-size: 17px;
+.volume {
+    background-color: #5f7b99;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    padding: 15px;
 }
 
-.active, .accordion:hover {
-    background-color: #8498ad;
+.volume {
+    color: white;
 }
 
-.panel {
-    padding: 0 18px;
-    background-color: #a2b7ce;
-    display: none;
-    overflow: hidden;
-    font-size: 15px;
-    text-align: left;
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
 }
 
-@media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: 400px;
-      position: relative;
+div.scrollmenu>a {
+    display: block;
+    color: #5f7b99;
+    text-align: center;
+    border-left: 1px solid #5f7b99;
+    border-right: 1px solid #5f7b99;
+    padding: 14px;
+    width: 110px;
+    text-decoration: none;
+    margin: 0;
+}
+
+div.scrollmenu a:hover {
+    background-color: #5f7b99;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    div.scrollmenu {
+        overflow-x: scroll;
+        display: flex;
+        justify-content: left;  
+        /* width: 1000px; */
+
     }
-    div.content {margin-left: 0;}
+}
+
+@media all and (max-width: 480px) { 
+    .foto{
+        width: 350px;
+    }
+    div.scrollmenu>a{
+        /* display: block; */
+        width: 110px;
+    }
 }
